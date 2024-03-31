@@ -1,2 +1,6 @@
 # spotify-clone
-html,css,js 
+HTML
+<BR>
+CSS
+<BR>
+JS
