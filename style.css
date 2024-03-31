@@ -1,0 +1,96 @@
+@import url('https://fonts.google.com/selection#how-to-use');
+@import url('https://fonts.google.com/specimen/Roboto?preview.text=Whereas%20recognition%20of%20the%20inherent%20dignihttps:%2F%2Ffonts.google.com%2Fselection%23how-to-usety&preview.size=24');
+body{
+    background-color: rgb(228, 239, 231);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'ubuntu', sans-serif;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 30px;
+    background-color: rgb(214, 37, 52);
+    color: rgb(216, 200, 200);
+
+}
+nav ul li{
+    padding: 10px;
+}
+.brand img{
+    width: 20px;
+    padding: 8px;
+    
+}
+.container{
+    min-height: 70vh;
+    background-color: white;
+    color: aliceblue;
+    font-family:'varela round',sans-serif;;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 35px;
+    background-image: url('backimg.png');
+
+
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight:bolder ;
+    font-size: 1.3rem;
+}
+.bottom{
+    position: sticky;
+    height: 120px;
+    background-color: rgb(75, 150, 165);
+    color: rgb(5, 0, 6);
+    bottom: 0;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+   
+
+
+}
+.icons {
+    margin-top: 15px;
+}
+.icons i {
+    cursor: pointer;
+}
+#myprogressbar{
+    width: 100vw;
+    
+}
+.songItem img{
+    width: 40px;
+    margin:  0 23px 0;
+    border-radius: 34px;
+
+}
+.songItem{
+    height: 40px;
+    display: flex;
+    background-color: rgb(212, 212, 232);
+    width: 78%;
+    color: black;
+    margin:12px  0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 35px;
+
+}
+.timestamp{
+    margin: 0 29px;
+}
